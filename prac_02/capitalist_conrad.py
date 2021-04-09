@@ -15,6 +15,7 @@ MIN_PRICE = 1  # lowest price
 MAX_PRICE = 100  # highest price
 INITIAL_PRICE = 10.0
 
+
 def main():
     out_file = open("stock_prices.txt", "w")
 
@@ -40,6 +41,7 @@ def main():
         day_number += 1  # increase day count
 
     out_file.close()
+
 
 if __name__ == '__main__':
     main()
