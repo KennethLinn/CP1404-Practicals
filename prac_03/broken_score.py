@@ -1,12 +1,16 @@
 
 def main():
     score = float(input("Enter score: "))
+    print(determine_status(score))
+
+def determine_status(score):
+    """Determine the status of the score input"""
     if score < 0 or score > 100:
-        print("Invalid score")
-    elif score < 50:
-        print("Bad")
-    elif score >= 50:
-        print("Passable")
+        return "Invalid score"
     elif score >= 90:
-        print("Excellent")
+        return "Excellent"
+    elif score >= 50:
+        return "Passable"
+    else:
+        return "Bad"
 main()
