@@ -9,6 +9,6 @@ while not finished:
     try:
         result = int(input("Enter a valid integer: "))
         finished = True
-    except:  # TODO - add something after except
+    except:
         print("Please enter a valid integer.")
 print("Valid result is:", result)
