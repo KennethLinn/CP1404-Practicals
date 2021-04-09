@@ -33,7 +33,7 @@ for i, number in enumerate(numbers):
 print("{} {} for about ${:,.0f}!".format(year, name, cost))
 # TODO: Using a for loop with the range function and string formatting,
 # produce the following right-aligned output (do not use a list):
-for i in range(0,150, 50):
+for i in range(0, 150, 50):
     print("{:3}".format(i))
 #   0
 #  50
